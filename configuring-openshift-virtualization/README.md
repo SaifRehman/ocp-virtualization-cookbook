@@ -9,6 +9,7 @@
 * In the web console, navigate to the Operators Hub by selecting Operators > Operator Hub from the left sidebar menu.
 4. Search for OpenShift Virtualization:
 * In the Operator Hub, use the search bar to find "OpenShift Virtualization."
+![1.png](/assets/1.png)
 5. Install OpenShift Virtualization:
 * Click on the OpenShift Virtualization tile to access its details.
 * Click the "Install" button.
