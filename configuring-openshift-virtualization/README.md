@@ -13,8 +13,19 @@
 5. Install OpenShift Virtualization:
 * Click on the OpenShift Virtualization tile to access its details.
 * Click the "Install" button.
-* Choose the appropriate installation mode (e.g., A specific namespace on the cluster).
+![2.png](/assets/2.png)
+* Choose the namespaces recommended which is ```openshift-cnv```. 
 * Click "Install" again to confirm.
 6. Monitor Installation Progress:
 * After installation, navigate to the Installed Operators page (Operators > Installed Operators).
 * Check the status of the OpenShift Virtualization Operator. It should show "Succeeded" when the installation is complete.
+![3.png](/assets/3.png)
+8. Create a hyper-converged instance 
+* Go to installed Operator and click on OpenShift Virtualization 
+* Select ```OpenShift Virtualization Deployment``` tab, and click on ```Create HyperConverged``` blue button 
+![4.png](/assets/4.png)
+* click on create
+9. Check the progress 
+* Click on ```Workload``` --> ```Pods``` and check the status of all pods, it should either be  Completed or Running
+![5.png](/assets/5.png)
+> The process will take around 15 minutes to provision the entire deployment.
